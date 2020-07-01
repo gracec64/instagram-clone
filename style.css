@@ -94,7 +94,6 @@ input:focus::-ms-input-placeholder {
 #header
 {
   display: inline;
-  width: 100%;
   position: absolute;
   border-bottom: 2px solid black;
   top: 0px;
