@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Instagram;
+  src: url(ProximaNova-Regular.otf);
+}
+
+#instagram {
+    text-align:left;
+}
+
+p {
+  white-space: pre;
+}
+#icons{
+    text-align:right;
+    padding:10px;
+}
+
+#nameTag{
+  height:32px;
+  width: 103px;
+  text-align: left;
+}
+
+#bioinfo {
+  font-size: 16px; 
+  text-align:left;
+  font-family: Instagram;
+} 
+
+svg {
+    display: inline-block;
+  }
+  
+#hightlights {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+}
+
+
+  .container{
+    font-size: 50;
+  }
+
+  input[type=text].instaSearch {
+    font-family: proxima-nove, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    letter-spacing: .5px;
+    height:25px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #edeeee;
+    background: #fafafa;
+    background-image: url("glass.png");
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    background-position: 85px 7px;
+    outline: none;
+    width: 225px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #c9cbcc;
+     
+}
+input[type=text]:focus.instaSearch {
+    text-align: left;
+    padding-left: 30px;
+    background: #ffffff;
+    background-image: url("glass.png");
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    background-position: 15px 7px;
+    color: #000;
+}
+ 
+input:focus::-webkit-input-placeholder {
+     color: #c9cbcc;
+}
+input:focus::-moz-placeholder {
+     color: #c9cbcc;
+}
+input:focus::-moz-placeholder {   /* Older versions of Firefox */
+     color: #c9cbcc;
+}
+input:focus::-ms-input-placeholder { 
+     color: #c9cbcc;
+}
+
+#header
+{
+  display: inline;
+  width: 100%;
+  position: absolute;
+  border-bottom: 2px solid black;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+}
+
+input
+{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#bio
+{
+  text-align: center;
+  padding-top: 150px;
+  
+}
+#bioHeader
+{
+  display: flex;
+}
+.bioContent
+{
+  margin: 5px;
+}
+#container
+{
+  background-color: white;
+}
+
+.button {
+  padding: 15px 50px;
+  border-radius: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 325px 325px 325px;
+  grid-template-rows: 325px 325px;
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  height: 250px;
+  width: 500px;
+  margin-left: 10%;
+  margin-top: 15px;
+}
+
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 293px;
+  height: 293px;
+}
+
+ ul, li {   
+    display:inline
+  }
+
+  .center{
+    margin-left: 25px;
+    margin-right: 90px;
+  }
+
+.profilebutton{
+  width: 94px;
+  height: 30px;
+}
+
+.profim{
+  width:292px;
+  height:174px;
+  grid-column-gap: 0px;
+}
+
+.profbio{
+  grid-column: 2/ span 2;
+  width: 613px;
+  height:174px;
+}
+
+
+
+
+
+
+
